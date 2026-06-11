@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "titulo": "Byung-Chul Han e a Sociedade do Cansaço",
+    "slug": "byung-chul-han",
+    "tema": "Saúde Mental",
+    "autor": "Repertório ENEM",
+    "imagem": "https://picsum.photos/800/400",
+    "resumo": "A sociedade moderna exige produtividade constante e gera exaustão.",
+    "conteudo": "<h2>Explicação</h2><p>Byung-Chul Han argumenta que a sociedade atual exige produtividade constante.</p><h2>Como usar no ENEM</h2><p>Esse repertório pode ser usado em temas relacionados à saúde mental e pressão social.</p>",
+    "descricaoSeo": "Aprenda como usar Byung-Chul Han na redação do ENEM.",
+    "data": "2026-06-11"
+  },
+
+  {
+  "id": 2,
+  "titulo": "Zygmunt Bauman e a Modernidade Líquida",
+  "slug": "zygmunt-bauman",
+  "tema": "Relações Sociais",
+  "autor": "Repertório ENEM",
+  "imagem": "https://picsum.photos/800/401",
+  "resumo": "Bauman analisa como as relações e instituições se tornaram mais frágeis e instáveis na sociedade contemporânea.",
+  "conteudo": "<h2>Explicação</h2><p>Zygmunt Bauman desenvolveu o conceito de 'modernidade líquida' para explicar uma sociedade marcada por mudanças rápidas, insegurança e fragilidade nos vínculos sociais. Segundo o sociólogo, as relações humanas, o trabalho e até os valores se tornaram mais flexíveis e instáveis.</p><h2>Como usar no ENEM</h2><p>Esse repertório pode ser utilizado em temas relacionados ao individualismo, redes sociais, relações humanas, consumo, cidadania e impactos da tecnologia na sociedade. A ideia de laços frágeis e mudanças constantes ajuda a analisar desafios da vida contemporânea.</p>",
+  "descricaoSeo": "Entenda o conceito de modernidade líquida de Zygmunt Bauman e saiba como utilizá-lo na redação do ENEM.",
+  "data": "2026-06-11"
+}
+]

@@ -1,5 +1,11 @@
 [
   {
+    "conteudo": "\nTÍTULO: De Pelé à 'Mão de Deus': a história do Azteca, o único estádio a sediar três Copas do Mundo\n\nRESUMO: Palco das conquistas de Pelé em 1970 e de Maradona em 1986, o colosso da Cidade do México abre a Copa de 2026 e entra para a história como a primeira arena a receber três jogos inaugurais de Mundial.\n\nFONTE: https://www.bbc.com/portuguese/articles/clypex2kg17o?at_medium=RSS&at_campaign=rss\n\nDATA: 11/06/2026\n",
+    "titulo": "De Pelé à 'Mão de Deus': a história do Azteca, o único estádio a sediar três Copas do Mundo",
+    "link": "https://www.bbc.com/portuguese/articles/clypex2kg17o?at_medium=RSS&at_campaign=rss",
+    "data": "Thu, 11 Jun 2026 09:07:10 GMT"
+  },
+  {
     "id": 1,
     "titulo": "Byung-Chul Han e a Sociedade do Cansaço",
     "slug": "byung-chul-han",
@@ -11,17 +17,16 @@
     "descricaoSeo": "Aprenda como usar Byung-Chul Han na redação do ENEM.",
     "data": "2026-06-11"
   },
-
   {
-  "id": 2,
-  "titulo": "Zygmunt Bauman e a Modernidade Líquida",
-  "slug": "zygmunt-bauman",
-  "tema": "Relações Sociais",
-  "autor": "Repertório ENEM",
-  "imagem": "https://picsum.photos/800/401",
-  "resumo": "Bauman analisa como as relações e instituições se tornaram mais frágeis e instáveis na sociedade contemporânea.",
-  "conteudo": "<h2>Explicação</h2><p>Zygmunt Bauman desenvolveu o conceito de 'modernidade líquida' para explicar uma sociedade marcada por mudanças rápidas, insegurança e fragilidade nos vínculos sociais. Segundo o sociólogo, as relações humanas, o trabalho e até os valores se tornaram mais flexíveis e instáveis.</p><h2>Como usar no ENEM</h2><p>Esse repertório pode ser utilizado em temas relacionados ao individualismo, redes sociais, relações humanas, consumo, cidadania e impactos da tecnologia na sociedade. A ideia de laços frágeis e mudanças constantes ajuda a analisar desafios da vida contemporânea.</p>",
-  "descricaoSeo": "Entenda o conceito de modernidade líquida de Zygmunt Bauman e saiba como utilizá-lo na redação do ENEM.",
-  "data": "2026-06-11"
-}
+    "id": 2,
+    "titulo": "Zygmunt Bauman e a Modernidade Líquida",
+    "slug": "zygmunt-bauman",
+    "tema": "Relações Sociais",
+    "autor": "Repertório ENEM",
+    "imagem": "https://picsum.photos/800/401",
+    "resumo": "Bauman analisa como as relações e instituições se tornaram mais frágeis e instáveis na sociedade contemporânea.",
+    "conteudo": "<h2>Explicação</h2><p>Zygmunt Bauman desenvolveu o conceito de 'modernidade líquida' para explicar uma sociedade marcada por mudanças rápidas, insegurança e fragilidade nos vínculos sociais. Segundo o sociólogo, as relações humanas, o trabalho e até os valores se tornaram mais flexíveis e instáveis.</p><h2>Como usar no ENEM</h2><p>Esse repertório pode ser utilizado em temas relacionados ao individualismo, redes sociais, relações humanas, consumo, cidadania e impactos da tecnologia na sociedade. A ideia de laços frágeis e mudanças constantes ajuda a analisar desafios da vida contemporânea.</p>",
+    "descricaoSeo": "Entenda o conceito de modernidade líquida de Zygmunt Bauman e saiba como utilizá-lo na redação do ENEM.",
+    "data": "2026-06-11"
+  }
 ]

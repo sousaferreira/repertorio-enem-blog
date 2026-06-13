@@ -3,40 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repertório ENEM</title>
-
+    <title>Repertório ENEM | Domine a redação</title>
+    <meta name="description" content="Repertórios socioculturais atualizados diariamente para turbinar sua nota na redação do ENEM.">
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header>
     <div class="container">
-        <h1>📚 Repertório ENEM</h1>
-        <p>Repertórios atualizados diariamente para turbinar sua redação.</p>
+        <h1>Repertório ENEM</h1>
+        <p>Repertórios socioculturais atualizados diariamente para turbinar sua argumentação e garantir a nota mil.</p>
     </div>
 </header>
 
 <main class="container">
-
     <section class="hero">
-    <h2>Aprenda repertórios prontos para usar no ENEM</h2>
-    <p>Novos conteúdos todos os dias.</p>
-
-    <input
-        type="text"
-        id="searchInput"
-        placeholder="Pesquisar repertório..."
-        class="search-box"
-    >
-</section>
-
-    <section id="posts">
-        <!-- Os posts aparecerão aqui -->
+        <h2>📖 Domine a redação com repertórios estratégicos</h2>
+        <p>Filmes, livros, filósofos, dados e citações — tudo na ponta dos dedos.</p>
+        
+        <div class="search-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="searchInput" class="search-box" placeholder="Pesquisar por título, tema ou autor...">
+        </div>
+        
+        <div class="filter-tags" id="filterTags">
+            <span class="tag active" data-filter="all">Todos</span>
+            <span class="tag" data-filter="Filosofia">🎭 Filosofia</span>
+            <span class="tag" data-filter="Cinema">🎬 Cinema</span>
+            <span class="tag" data-filter="Literatura">📖 Literatura</span>
+            <span class="tag" data-filter="Dados">📊 Dados sociais</span>
+            <span class="tag" data-filter="História">🏛️ História</span>
+        </div>
     </section>
 
+    <section id="posts">
+        <div class="loading">
+            <div class="spinner"></div>
+            <p>Carregando repertórios incríveis...</p>
+        </div>
+    </section>
 </main>
 
-<script src="js/home.js"></script>
+<footer>
+    <p>✍️ Repertório ENEM — Atualizado diariamente para sua preparação.</p>
+    <p style="margin-top: 8px; font-size:0.75rem;">Referências socioculturais validadas para o ENEM 2026</p>
+</footer>
 
+<script src="js/home.js"></script>
 </body>
 </html>

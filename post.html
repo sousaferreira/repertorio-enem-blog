@@ -3,26 +3,265 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Repertório ENEM</title>
-
+  <title>Repertório ENEM | Detalhes do Repertório</title>
+  <meta name="description" content="Veja o repertório completo com exemplos de aplicação, citações e dicas para usar na redação do ENEM.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+  
+  <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
+  
+  <style>
+    /* Estilos específicos para a página de post */
+    .post-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 0;
+    }
+    
+    .card-post {
+      background: white;
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.15);
+      margin-top: -30px;
+      position: relative;
+      z-index: 2;
+    }
+    
+    .post-header {
+      position: relative;
+    }
+    
+    .post-image {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    
+    .post-meta {
+      padding: 24px 32px 0 32px;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    
+    .post-category {
+      background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+      color: #667eea;
+      padding: 6px 14px;
+      border-radius: 30px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+    
+    .post-date {
+      color: #64748b;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .post-featured {
+      background: linear-gradient(135deg, #f59e0b, #f97316);
+      color: white;
+      padding: 6px 14px;
+      border-radius: 30px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    
+    .post-title {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #0f172a;
+      padding: 0 32px;
+      margin: 16px 0;
+      line-height: 1.3;
+    }
+    
+    .post-content {
+      padding: 0 32px 32px 32px;
+    }
+    
+    .post-content p {
+      color: #334155;
+      line-height: 1.7;
+      margin-bottom: 20px;
+      font-size: 1.05rem;
+    }
+    
+    .post-content h2 {
+      font-size: 1.5rem;
+      margin: 32px 0 16px 0;
+      color: #0f172a;
+    }
+    
+    .post-content h3 {
+      font-size: 1.2rem;
+      margin: 24px 0 12px 0;
+      color: #1e293b;
+    }
+    
+    .quote-box {
+      background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+      border-left: 4px solid #667eea;
+      padding: 20px 24px;
+      margin: 24px 0;
+      border-radius: 16px;
+      font-style: italic;
+      color: #1e293b;
+    }
+    
+    .dica-box {
+      background: linear-gradient(135deg, #fef3c7, #fffbeb);
+      border: 1px solid #fde68a;
+      padding: 20px 24px;
+      margin: 24px 0;
+      border-radius: 16px;
+      position: relative;
+    }
+    
+    .dica-box::before {
+      content: '💡 Dica ENEM';
+      position: absolute;
+      top: -12px;
+      left: 20px;
+      background: #f59e0b;
+      color: white;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    
+    .btn-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #f1f5f9;
+      color: #334155;
+      padding: 10px 20px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      margin-bottom: 20px;
+    }
+    
+    .btn-back:hover {
+      background: #e2e8f0;
+      transform: translateX(-4px);
+    }
+    
+    .btn-save-post {
+      background: #f1f5f9;
+      border: 1.5px solid #e2e8f0;
+      padding: 10px 20px;
+      border-radius: 12px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .btn-save-post:hover {
+      background: #e2e8f0;
+      transform: translateY(-2px);
+    }
+    
+    .btn-save-post.saved {
+      background: linear-gradient(135deg, #10b981, #059669);
+      color: white;
+      border-color: transparent;
+    }
+    
+    .action-buttons {
+      display: flex;
+      gap: 16px;
+      margin-top: 32px;
+      flex-wrap: wrap;
+    }
+    
+    .loading-spinner {
+      text-align: center;
+      padding: 60px;
+    }
+    
+    .error-message {
+      text-align: center;
+      padding: 60px;
+    }
+    
+    @media (max-width: 768px) {
+      .post-image {
+        height: 250px;
+      }
+      
+      .post-title {
+        font-size: 1.6rem;
+        padding: 0 20px;
+      }
+      
+      .post-meta {
+        padding: 20px 20px 0 20px;
+      }
+      
+      .post-content {
+        padding: 0 20px 24px 20px;
+      }
+      
+      .post-content p {
+        font-size: 1rem;
+      }
+      
+      .quote-box, .dica-box {
+        padding: 16px 20px;
+      }
+    }
+  </style>
 </head>
 <body>
 
 <header>
   <div class="container">
-    <h1 id="titulo"></h1>
-    <p id="tema"></p>
+    <h1 id="titulo">📚 Repertório ENEM</h1>
+    <p id="tema">Domine a redação com repertórios socioculturais atualizados</p>
   </div>
 </header>
 
-<main class="container">
-
-  <div class="card">
-    <div id="conteudo"></div>
+<main class="container post-container">
+  <!-- Botão voltar -->
+  <a href="index.html" class="btn-back">
+    ← Voltar para todos os repertórios
+  </a>
+  
+  <!-- Card de conteúdo -->
+  <div class="card-post" id="postCard">
+    <div id="conteudo" class="post-content">
+      <!-- Loading state -->
+      <div class="loading-spinner">
+        <div class="spinner"></div>
+        <p>Carregando repertório...</p>
+      </div>
+    </div>
   </div>
-
 </main>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>✍️ Repertório ENEM — Repertórios validados para sua redação nota mil</p>
+    <p style="margin-top: 8px; font-size: 0.75rem;">Referências socioculturais atualizadas diariamente</p>
+  </div>
+</footer>
 
 <script src="js/post.js"></script>
 

@@ -1,5 +1,19 @@
 [
   {
+    "id": 1781555709160,
+    "titulo": "Algoritmos da Guerra: A Inteligência Artificial e a Ética nas Fronteiras do Conflito",
+    "slug": "algoritmos-da-guerra-a-inteligencia-artificial-e-a-etica-nas-fronteiras-do-conflito",
+    "tema": "O uso da inteligência artificial em operações militares e suas implicações éticas",
+    "categoria": "tecnologia",
+    "imagemTema": "artificial intelligence war technology",
+    "autor": "Repertório ENEM",
+    "imagem": "https://images.pexels.com/photos/34222354/pexels-photo-34222354.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "resumo": "A utilização de sistemas de IA para identificar alvos militares redefine a eficiência bélica, mas levanta questionamentos urgentes sobre a responsabilidade humana em decisões de vida ou morte.",
+    "conteudo": "<h2>🎯 Tema</h2><p>O uso da inteligência artificial na seleção e identificação de alvos em conflitos armados, evidenciado pelo uso de algoritmos para processar grandes volumes de dados em operações militares contemporâneas.</p><h2>📖 Explicação</h2><p>A incorporação da IA na estratégia militar representa uma mudança de paradigma. Quando um sistema consegue processar, em tempo recorde, a localização de mil alvos que demandariam meses de análise humana, a velocidade da guerra aumenta exponencialmente. O problema reside na chamada caixa-preta dos algoritmos: não compreendemos totalmente como essas máquinas chegam a determinadas conclusões. Ao retirar o analista humano do processo de identificação inicial, corre-se o risco de reduzir a guerra a uma fria contagem de dados, onde a moralidade e a avaliação contextual perdem espaço para a eficiência computacional.</p><h2>✨ Como usar na redação</h2><p>Você pode utilizar este repertório para discutir os riscos da desumanização em temas relacionados à tecnologia e ética. O conceito de Algoritmo de Decisão pode ser aplicado para argumentar que, embora a tecnologia otimize processos, a ausência de um 'freio moral' humano pode levar a desastres humanitários. Argumente que o desenvolvimento técnico não pode sobrepor-se aos direitos humanos fundamentais e ao Direito Internacional Humanitário.</p><h2>🔑 Palavras-chave</h2><ul><li>Algoritmos bélicos</li><li>Ética digital</li><li>Automação da violência</li><li>Responsabilidade moral</li><li>Tecnologia de defesa</li></ul><h2>💡 Dica ENEM</h2><p>Ao abordar este tema, conecte-o ao conceito de 'Modernidade Líquida' de Zygmunt Bauman, sugerindo que a busca incessante pela eficiência técnica (solidez) acaba por fragilizar as estruturas humanitárias (liquidez), permitindo que decisões éticas complexas sejam terceirizadas para máquinas que não compreendem o valor da vida.</p>",
+    "descricaoSeo": "Entenda como a Inteligência Artificial está transformando a estratégia militar e os riscos éticos envolvidos na automação da guerra para o seu repertório de redação do ENEM.",
+    "data": "2026-06-15"
+  },
+  {
     "id": 1781553968186,
     "titulo": "A Patologização do Feminino e o Estigma da Saúde Mental na Política",
     "slug": "a-patologizacao-do-feminino-e-o-estigma-da-saude-mental-na-politica",

@@ -863,3 +863,97 @@ footer a:not(:last-child)::before {
         font-size: 24px;
     }
 }
+/* Botão Voltar Padrão */
+.btn-voltar {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.btn-voltar:hover {
+    transform: translateX(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+.btn-voltar:active {
+    transform: translateX(-2px);
+}
+
+/* Botão Home */
+.btn-home {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #1a1a2e;
+    color: #ffd200;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    border: 2px solid #ffd200;
+    cursor: pointer;
+}
+
+.btn-home:hover {
+    background: #ffd200;
+    color: #1a1a2e;
+    transform: scale(1.05);
+}
+
+/* Botão Flutuante (fixo no canto inferior direito) */
+.btn-flutuante {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #f7971e;
+    color: white;
+    text-decoration: none;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.btn-flutuante:hover {
+    background: #e68a00;
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+/* Versão responsiva para mobile */
+@media (max-width: 768px) {
+    .btn-voltar, .btn-home {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .btn-flutuante {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+        font-size: 24px;
+    }
+}

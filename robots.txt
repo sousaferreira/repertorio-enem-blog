@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sousaferreira.github.io/repertorio-enem-blog/sitemap.xml

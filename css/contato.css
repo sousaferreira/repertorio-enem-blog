@@ -1,0 +1,414 @@
+/* Reset e estilos base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e9edf2 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Container padrão */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  animation: fadeInDown 0.6s ease;
+}
+
+header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  animation: fadeInUp 0.6s ease;
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 20px;
+}
+
+/* Contact Card */
+.contact-card {
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  overflow: hidden;
+  animation: fadeIn 0.8s ease;
+}
+
+.contact-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.contact-header .emoji {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.contact-header h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-header p {
+  opacity: 0.9;
+}
+
+.contact-body {
+  padding: 2.5rem;
+}
+
+/* Info Sections */
+.info-section {
+  margin-bottom: 2rem;
+}
+
+.info-section h3 {
+  color: #1a1a2e;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-left: 4px solid #f7971e;
+  padding-left: 15px;
+}
+
+.info-section p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Email Box */
+.email-box {
+  background: linear-gradient(135deg, #fef3e2 0%, #ffe8cc 100%);
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+  margin: 1.5rem 0;
+  border: 2px dashed #f7971e;
+  transition: transform 0.3s ease;
+}
+
+.email-box:hover {
+  transform: translateY(-3px);
+}
+
+.email-label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f7971e;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.email-address {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #1a1a2e;
+  word-break: break-all;
+}
+
+/* Copy Button */
+.copy-btn {
+  background: #f7971e;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  margin-top: 0.8rem;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.copy-btn:hover {
+  background: #e68a00;
+  transform: scale(1.05);
+}
+
+.copy-feedback {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #28a745;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.copy-feedback.show {
+  opacity: 1;
+}
+
+/* Suggestions Grid */
+.suggestions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.suggestion-item {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 1.2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid #e9ecef;
+}
+
+.suggestion-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  border-color: #f7971e;
+}
+
+.suggestion-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.suggestion-item h4 {
+  color: #1a1a2e;
+  margin-bottom: 0.5rem;
+}
+
+.suggestion-item p {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* Note Box */
+.note {
+  background: #e7f3ff;
+  border-left: 4px solid #2196F3;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #0c5460;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #e2e2e2;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #f7971e, #ffd200, #f7971e);
+}
+
+footer a {
+  color: #ffd200;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .contact-body {
+    padding: 1.5rem;
+  }
+
+  .email-address {
+    font-size: 1rem;
+  }
+
+  .suggestions-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .info-section h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-header h2 {
+    font-size: 1.3rem;
+  }
+
+  .contact-header .emoji {
+    font-size: 3rem;
+  }
+  
+  .contact-body {
+    padding: 1rem;
+  }
+}
+/* Botão Voltar Padrão */
+.btn-voltar {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.btn-voltar:hover {
+    transform: translateX(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+.btn-voltar:active {
+    transform: translateX(-2px);
+}
+
+/* Botão Home */
+.btn-home {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #1a1a2e;
+    color: #ffd200;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    border: 2px solid #ffd200;
+    cursor: pointer;
+}
+
+.btn-home:hover {
+    background: #ffd200;
+    color: #1a1a2e;
+    transform: scale(1.05);
+}
+
+/* Botão Flutuante (fixo no canto inferior direito) */
+.btn-flutuante {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #f7971e;
+    color: white;
+    text-decoration: none;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.btn-flutuante:hover {
+    background: #e68a00;
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+/* Versão responsiva para mobile */
+@media (max-width: 768px) {
+    .btn-voltar, .btn-home {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .btn-flutuante {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+        font-size: 24px;
+    }
+}

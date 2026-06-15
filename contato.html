@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | Atlas ENEM</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📩</text></svg>">
+  <link rel="stylesheet" href="css/contato.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>📩 Contato</h1>
+    <p>Envie sugestões, dúvidas ou correções — sua opinião é muito importante!</p>
+  </div>
+  <!-- Botão Padrão -->
+<a href="index.html" class="btn-voltar">
+    ← Voltar ao Início
+</a>
+
+<!-- Botão com ícone (outra opção) -->
+<a href="index.html" class="btn-home">
+    🏠 Página Inicial
+</a>
+
+<!-- Botão flutuante (fixo no canto) -->
+<a href="index.html" class="btn-flutuante" title="Voltar ao início">
+    ←
+</a>
+</header>
+
+<main>
+  <div class="contact-card">
+    <div class="contact-header">
+      <div class="emoji">💬✨</div>
+      <h2>Fale Conosco</h2>
+      <p>Estamos aqui para ajudar você a conquistar a nota mil!</p>
+    </div>
+
+    <div class="contact-body">
+      <div class="info-section">
+        <h3>📬 E-mail para contato</h3>
+        <p>Caso encontre alguma informação incorreta, deseje sugerir melhorias ou tenha dúvidas sobre os conteúdos publicados, entre em contato conosco.</p>
+        
+        <div class="email-box">
+          <div class="email-label">📧 NOSSO E-MAIL</div>
+          <div class="email-address" id="emailAddress">priscilasousaferreira1@gmail.com</div>
+          <button class="copy-btn" onclick="copyEmail()">📋 Copiar e-mail</button>
+          <div id="copyFeedback" class="copy-feedback">✓ E-mail copiado!</div>
+        </div>
+      </div>
+
+      <div class="info-section">
+        <h3>💡 Sugestões e Correções</h3>
+        <p>Estamos sempre buscando melhorar a qualidade dos conteúdos e oferecer materiais cada vez mais úteis para estudantes e professores. Sua contribuição é fundamental!</p>
+        
+        <div class="suggestions-grid">
+          <div class="suggestion-item">
+            <div class="suggestion-icon">📚</div>
+            <h4>Sugerir Repertório</h4>
+            <p>Indique filmes, livros ou citações que podem ajudar outros estudantes</p>
+          </div>
+          <div class="suggestion-item">
+            <div class="suggestion-icon">🔧</div>
+            <h4>Reportar Erro</h4>
+            <p>Encontrou alguma informação incorreta? Avise-nos para corrigirmos</p>
+          </div>
+          <div class="suggestion-item">
+            <div class="suggestion-icon">🤝</div>
+            <h4>Parcerias</h4>
+            <p>Quer colaborar com o Atlas ENEM? Entre em contato</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="note">
+        <strong>📝 Importante:</strong> Respondemos todas as mensagens em até 48 horas úteis. 
+        Ao enviar seu e-mail, você nos ajuda a criar um conteúdo ainda melhor para sua preparação!
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© 2026 Atlas ENEM — Transformando conhecimento em aprovação 🎓</p>
+    <p style="margin-top: 10px; font-size: 0.8rem;">
+      <a href="privacidade.html">Política de Privacidade</a> | 
+      <a href="termos.html">Termos de Uso</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+  function copyEmail() {
+    const email = document.getElementById('emailAddress').innerText;
+    navigator.clipboard.writeText(email).then(() => {
+      const feedback = document.getElementById('copyFeedback');
+      feedback.classList.add('show');
+      setTimeout(() => {
+        feedback.classList.remove('show');
+      }, 2000);
+    }).catch(err => {
+      console.error('Erro ao copiar: ', err);
+    });
+  }
+</script>
+
+</body>
+</html>

@@ -1,5 +1,19 @@
 [
   {
+    "id": 1781569273802,
+    "titulo": "Algoritmos do Conflito: A Ética da Inteligência Artificial em Cenários Bélicos",
+    "slug": "algoritmos-do-conflito-a-etica-da-inteligencia-artificial-em-cenarios-belicos",
+    "tema": "A automação da guerra e a responsabilidade ética na tomada de decisão via inteligência artificial.",
+    "categoria": "tecnologia",
+    "imagemTema": "artificial intelligence military war",
+    "autor": "Repertório ENEM",
+    "imagem": "https://images.pexels.com/photos/1214270/pexels-photo-1214270.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "resumo": "O uso de inteligência artificial para identificar alvos militares em larga escala levanta debates urgentes sobre a autonomia das máquinas e a diluição da responsabilidade humana na guerra.",
+    "conteudo": "<h2>🎯 Tema</h2><p>O uso da inteligência artificial (IA) na identificação e seleção de alvos em conflitos armados marca uma mudança paradigmática na arte da guerra. A substituição da análise humana por sistemas algorítmicos levanta questões fundamentais sobre a precisão técnica versus a responsabilidade moral em contextos de vida ou morte.</p><h2>📖 Explicação</h2><p>Historicamente, a decisão de engajar em um ataque militar repousava sobre o discernimento ético e estratégico de comandantes humanos. Com a integração de IAs capazes de processar mil alvos em curtos períodos, a tecnologia passa a atuar não como ferramenta de suporte, mas como protagonista da decisão tática. O problema reside na 'opacidade' dos algoritmos: quando um sistema processa dados complexos e indica um alvo, é difícil para o operador humano compreender totalmente a lógica por trás daquela escolha, criando o fenômeno da delegação cega. Isso gera o dilema do 'agente moral': se um erro de processamento causa danos a civis, de quem é a responsabilidade — do programador, do oficial militar ou da própria máquina?</p><h2>✨ Como usar na redação</h2><p>Este repertório é excelente para redações que discutem o limite entre o progresso tecnológico e a ética. Você pode citar o conceito de 'Sociedade de Controle', de Gilles Deleuze, para argumentar que a IA expande o poder de vigilância e ataque a níveis inumanos, onde a subjetividade do combate é anulada por cálculos estatísticos. Outra abordagem é relacionar o tema aos dilemas morais presentes na obra 'O Imperativo Categórico' de Immanuel Kant: se a guerra é uma falha da humanidade, transferir a decisão bélica para máquinas torna a vida humana um meio para um fim algorítmico, o que viola a dignidade da pessoa humana.</p><h2>🔑 Palavras-chave</h2><ul><li>Autonomia algorítmica</li><li>Ética na tecnologia</li><li>Responsabilidade bélica</li><li>Sistemas de armas letais</li><li>Desumanização do conflito</li></ul><h2>💡 Dica ENEM</h2><p>Ao abordar tecnologias disruptivas, evite o tecnocentrismo ou o pessimismo radical. O segredo da nota máxima é equilibrar a inovação com o princípio da prudência. Defenda que o desenvolvimento tecnológico deve ser sempre acompanhado por marcos regulatórios e pela manutenção da supervisão humana ('human-in-the-loop'), garantindo que a ética nunca seja substituída pela eficiência do código.</p>",
+    "descricaoSeo": "Explore o impacto da inteligência artificial nos conflitos modernos. Entenda o dilema ético da automação da guerra e aprenda como utilizar este repertório em sua redação do ENEM.",
+    "data": "2026-06-16"
+  },
+  {
     "id": 1781568666363,
     "titulo": "A Sinfonia da Produtividade: Ondas Binaurais e a Mercantilização da Performance Mental",
     "slug": "a-sinfonia-da-produtividade-ondas-binaurais-e-a-mercantilizacao-da-performance-mental",

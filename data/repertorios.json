@@ -1,5 +1,19 @@
 [
   {
+    "id": 1781648466725,
+    "titulo": "O Algoritmo da Destruição: Inteligência Artificial e a Ética na Guerra Automatizada",
+    "slug": "o-algoritmo-da-destruicao-inteligencia-artificial-e-a-etica-na-guerra-automatizada",
+    "tema": "O uso de sistemas de Inteligência Artificial em operações militares e suas implicações éticas.",
+    "categoria": "tecnologia",
+    "imagemTema": "artificial intelligence war technology",
+    "autor": "Repertório ENEM",
+    "imagem": "https://images.pexels.com/photos/34222354/pexels-photo-34222354.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "resumo": "A integração de IA na identificação de alvos militares levanta debates críticos sobre responsabilidade, erro algorítmico e a desumanização dos conflitos armados globais.",
+    "conteudo": "<h2>🎯 Tema</h2><p>A ascensão da inteligência artificial (IA) como ferramenta estratégica em conflitos bélicos, substituindo o discernimento humano pela precisão automatizada na identificação e seleção de alvos.</p><h2>📖 Explicação</h2><p>A utilização da inteligência artificial para processar dados e identificar alvos em zonas de conflito marca uma mudança de paradigma na história das guerras. Quando um sistema de IA processa informações de mil pontos distintos em um curto intervalo, ele supera a capacidade humana de análise quantitativa. Contudo, essa eficiência levanta o chamado 'dilema da responsabilidade': em caso de falhas ou danos colaterais, a quem se deve atribuir a culpa jurídica e ética? A substituição de analistas humanos por algoritmos pode gerar um efeito de 'distanciamento moral', em que a decisão de vida ou morte é reduzida a um cálculo de probabilidades, esvaziando o valor da existência humana em cenários de crise.</p><h2>✨ Como usar na redação</h2><p>Você pode utilizar este repertório em temas que envolvam ética na tecnologia, soberania estatal ou os limites da inovação científica. Para argumentar, cite o conceito de 'caixa-preta' (black box) da IA, argumentando que a opacidade na tomada de decisão dos algoritmos pode resultar em violações dos direitos humanos em guerras modernas. Conecte o fato ao pensamento de Hannah Arendt sobre a 'banalidade do mal', sugerindo que a automatização do ataque transforma a violência extrema em um processo burocrático e distante, facilitando a proliferação de conflitos sem o escrutínio da consciência humana.</p><h2>🔑 Palavras-chave</h2><ul><li>Inteligência Artificial</li><li>Guerra Automatizada</li><li>Ética Algorítmica</li><li>Responsabilidade Jurídica</li><li>Desumanização</li></ul><h2>💡 Dica ENEM</h2><p>Ao abordar o uso de tecnologias de ponta, evite apenas criticar a inovação. O foco do ENEM é a análise crítica sobre como a sociedade deve regular essas ferramentas. Proponha, em sua proposta de intervenção, a criação de protocolos internacionais ou fóruns de governança global para garantir que a supervisão humana seja obrigatória em decisões críticas envolvendo a vida de civis.</p>",
+    "descricaoSeo": "Explore o impacto da inteligência artificial na guerra moderna e como o uso de algoritmos para definir alvos militares levanta questões éticas cruciais para a redação do ENEM.",
+    "data": "2026-06-16"
+  },
+  {
     "id": 1781647866991,
     "titulo": "A Mercantilização da Vulnerabilidade: Poder Econômico e Exploração em Redes Transnacionais",
     "slug": "a-mercantilizacao-da-vulnerabilidade-poder-economico-e-exploracao-em-redes-transnacionais",

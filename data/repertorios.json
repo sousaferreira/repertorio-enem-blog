@@ -1,5 +1,19 @@
 [
   {
+    "id": 1781569867958,
+    "titulo": "A Desumanização do Combate: A Inteligência Artificial e a Ética da Guerra Automatizada",
+    "slug": "a-desumanizacao-do-combate-a-inteligencia-artificial-e-a-etica-da-guerra-automatizada",
+    "tema": "O uso da Inteligência Artificial em conflitos armados e a responsabilidade ética na tomada de decisão.",
+    "categoria": "tecnologia",
+    "imagemTema": "artificial intelligence war technology",
+    "autor": "Repertório ENEM",
+    "imagem": "https://images.pexels.com/photos/34222354/pexels-photo-34222354.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "resumo": "A utilização de sistemas de IA para identificar alvos militares em larga escala levanta dilemas críticos sobre a responsabilidade humana, a transparência algorítmica e a ética em cenários de conflito.",
+    "conteudo": "<h2>🎯 Tema</h2><p>O papel crescente da inteligência artificial na identificação e seleção de alvos em operações militares, evidenciado pela recente utilização de sistemas automatizados para processar grandes volumes de dados bélicos em substituição à análise humana tradicional.</p><h2>📖 Explicação</h2><p>A incorporação da Inteligência Artificial (IA) em cenários de guerra marca uma mudança de paradigma: a 'algoritmização' do conflito. Quando sistemas automatizados, capazes de processar milhares de alvos em tempo recorde, assumem o papel que antes cabia a analistas militares, ocorre um fenômeno chamado de desumanização do combate. Esse processo transfere a responsabilidade ética do julgamento humano para linhas de código, levantando questões sobre o chamado 'efeito caixa-preta', onde nem mesmo os operadores compreendem plenamente como o algoritmo chegou a uma conclusão específica. A velocidade e a eficiência da IA, embora atraentes para a estratégia militar, criam um vácuo de prestação de contas em caso de erros ou danos colaterais.</p><h2>✨ Como usar na redação</h2><p>Você pode utilizar este repertório para discutir a 'Ética na Tecnologia' ou os 'Limites da Automação'. Ao abordar o tema, mencione que, assim como o filósofo Hans Jonas, em sua obra 'O Princípio Responsabilidade', alerta sobre os riscos da técnica moderna sobre a existência humana, a aplicação da IA em guerras exige um novo imperativo ético. Argumente que, ao remover a subjetividade e a consciência moral do processo de decisão bélica, a tecnologia pode escalar conflitos de forma exponencial, transformando a vida humana em meros dados estatísticos processados por máquinas.</p><h2>🔑 Palavras-chave</h2><p><ul><li>Algoritmização do conflito</li><li>Desumanização do combate</li><li>Ética da inteligência artificial</li><li>Responsabilidade algorítmica</li><li>Tecnologia bélica</li></ul></p><h2>💡 Dica ENEM</h2><p>Ao abordar tecnologias disruptivas, evite o tecnofobia pura. O foco deve ser a governança. Argumente que a inovação tecnológica deve estar subordinada aos direitos humanos e ao Direito Internacional, propondo que a 'supervisão humana' (human-in-the-loop) seja um requisito inegociável para o uso de tecnologias letais, garantindo a responsabilização estatal.</p>",
+    "descricaoSeo": "Explore como a inteligência artificial na guerra altera a ética do conflito e os desafios da responsabilidade humana na tomada de decisão automatizada.",
+    "data": "2026-06-16"
+  },
+  {
     "id": 1781569273802,
     "titulo": "Algoritmos do Conflito: A Ética da Inteligência Artificial em Cenários Bélicos",
     "slug": "algoritmos-do-conflito-a-etica-da-inteligencia-artificial-em-cenarios-belicos",

@@ -1,5 +1,19 @@
 [
   {
+    "id": 1781651636962,
+    "titulo": "Algoritmos da Discórdia: A Inteligência Artificial e a Ética na Guerra Automatizada",
+    "slug": "algoritmos-da-discordia-a-inteligencia-artificial-e-a-etica-na-guerra-automatizada",
+    "tema": "O uso de sistemas de Inteligência Artificial na seleção de alvos militares e as implicações éticas da desumanização dos conflitos.",
+    "categoria": "tecnologia",
+    "imagemTema": "artificial intelligence war technology",
+    "autor": "Repertório ENEM",
+    "imagem": "https://images.pexels.com/photos/34222354/pexels-photo-34222354.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "resumo": "A utilização de sistemas de IA para identificar 1.000 alvos militares em um único dia levanta debates urgentes sobre a responsabilidade humana, a transparência algorítmica e os limites éticos na guerra moderna.",
+    "conteudo": "<h2>🎯 Tema</h2><p>O uso crescente de Inteligência Artificial na automação da guerra, especificamente na identificação e seleção de alvos estratégicos, coloca em xeque a soberania da decisão humana sobre a vida e a morte, alterando a natureza dos conflitos armados no século XXI.</p><h2>📖 Explicação</h2><p>A transição de analistas humanos para sistemas baseados em algoritmos na execução de estratégias militares representa uma mudança de paradigma. A capacidade de processar dados em larga escala para identificar alvos confere uma eficiência operacional sem precedentes, mas levanta o chamado dilema da 'caixa-preta': se um algoritmo identifica um alvo com base em dados, quem é o responsável ético e jurídico por um possível erro ou dano colateral? Esse fenômeno distancia o tomador de decisão das consequências morais e físicas do conflito, promovendo uma 'desumanização' da violência, onde a guerra se torna um problema estritamente matemático.</p><h2>✨ Como usar na redação</h2><p>Você pode utilizar este repertório para discutir a relação entre o avanço tecnológico e a ética. Uma excelente estratégia é citar a 'Banalidade do Mal' de Hannah Arendt, adaptando-a para a era digital: se no passado a burocracia estatal facilitava a atrocidade, hoje é o algoritmo, desprovido de consciência, que automatiza a destruição. Argumente que, sem uma regulamentação global que garanta a presença humana no 'loop' de decisão (human-in-the-loop), corremos o risco de transformar a ética em uma mera linha de código, sujeita a falhas e vieses imperceptíveis.</p><h2>🔑 Palavras-chave</h2><ul><li>Soberania tecnológica</li><li>Ética algorítmica</li><li>Desumanização da guerra</li><li>Responsabilidade humana</li><li>Inteligência Artificial aplicada</li></ul><h2>💡 Dica ENEM</h2><p>Ao abordar o uso da IA, evite extremos. Não se trata de condenar a tecnologia, mas de defender a soberania ética. No ENEM, a solução para problemas complexos como este deve envolver sempre uma abordagem multidisciplinar: governos, organizações internacionais (como a ONU) e empresas desenvolvedoras devem atuar conjuntamente para estabelecer protocolos de transparência e controle sobre sistemas autônomos.</p>",
+    "descricaoSeo": "Analise como a Inteligência Artificial na seleção de alvos militares redefine a ética na guerra e o papel da responsabilidade humana em conflitos modernos para sua redação do ENEM.",
+    "data": "2026-06-16"
+  },
+  {
     "id": 1781649065560,
     "titulo": "A Estratégia de Davi: O Estreito de Ormuz e a Geopolítica da Assimetria",
     "slug": "a-estrategia-de-davi-o-estreito-de-ormuz-e-a-geopolitica-da-assimetria",

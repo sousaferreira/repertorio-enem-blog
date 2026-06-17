@@ -1,5 +1,19 @@
 [
   {
+    "id": 1781727664454,
+    "titulo": "O Algoritmo de Marte: A Substituição do Juízo Humano na Guerra Tecnológica",
+    "slug": "o-algoritmo-de-marte-a-substituicao-do-juizo-humano-na-guerra-tecnologica",
+    "tema": "A automatização das decisões militares por meio da inteligência artificial",
+    "categoria": "tecnologia",
+    "imagemTema": "artificial intelligence warfare military",
+    "autor": "Repertório ENEM",
+    "imagem": "https://images.pexels.com/photos/1214270/pexels-photo-1214270.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "resumo": "Análise sobre a transição da soberania das decisões bélicas do intelecto humano para sistemas autônomos de IA, destacando os riscos éticos e a desumanização dos conflitos contemporâneos.",
+    "conteudo": "<h2>🎯 Tema</h2><p>A transição da inteligência humana para sistemas de IA na identificação e seleção de alvos em zonas de conflito marca uma mudança de paradigma na história das guerras, retirando a responsabilidade ética do julgamento militar tradicional.</p><h2>📖 Explicação</h2><p>O uso de inteligência artificial para processar vastos volumes de dados e identificar múltiplos alvos em curto espaço de tempo — como no recente cenário de conflito envolvendo os Estados Unidos e o Irã — levanta a questão da 'caixa-preta' algorítmica. Ao substituir analistas humanos por algoritmos, retira-se o componente da hesitação moral e do juízo crítico. Esse processo exemplifica o que filósofos contemporâneos chamam de 'agência delegada', onde a máquina executa a lógica fria da eficácia, mas carece da dimensão ética e jurídica necessária para compreender a complexidade de um conflito humano, aumentando o risco de danos colaterais irreversíveis.</p><h2>✨ Como usar na redação</h2><p>Você pode utilizar este repertório para discutir a ética na tecnologia. Ao abordar o impacto das inovações na sociedade, argumente que a automatização de decisões críticas desumaniza as relações internacionais. Utilize o conceito de 'Sociedade do Risco' de Ulrich Beck para explicar que a confiança cega em sistemas tecnológicos, sem a devida supervisão humanística, cria perigos que a própria tecnologia não consegue mitigar ou assumir a responsabilidade.</p><h2>🔑 Palavras-chave</h2><ul><li>Soberania algorítmica</li><li>Guerra automatizada</li><li>Ética da IA</li><li>Desumanização do conflito</li><li>Responsabilidade jurídica</li></ul><h2>💡 Dica ENEM</h2><p>Evite focar apenas no aspecto técnico da inteligência artificial. O corretor do ENEM busca sua capacidade de vincular o avanço tecnológico a valores democráticos e direitos humanos. Sempre questione: quem é o responsável jurídico quando um algoritmo comete um erro fatal em um conflito? Essa pergunta é o diferencial para uma redação de nota máxima.</p>",
+    "descricaoSeo": "Explore como a inteligência artificial na guerra transforma a ética militar e a responsabilidade humana, um repertório essencial para redações sobre tecnologia e sociedade.",
+    "data": "2026-06-17"
+  },
+  {
     "id": 1781727285953,
     "titulo": "A Insegurança Jurídica na Migração: O Dilema da Retroatividade e a Cidadania em Suspenso",
     "slug": "a-inseguranca-juridica-na-migracao-o-dilema-da-retroatividade-e-a-cidadania-em-suspenso",

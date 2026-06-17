@@ -1,5 +1,19 @@
 [
   {
+    "id": 1781654466605,
+    "titulo": "A Guerra Algorítmica: A Desumanização da Decisão Bélica na Era da IA",
+    "slug": "a-guerra-algoritmica-a-desumanizacao-da-decisao-belica-na-era-da-ia",
+    "tema": "O uso de inteligência artificial em conflitos militares e a autonomia das máquinas nas decisões de vida ou morte.",
+    "categoria": "tecnologia",
+    "imagemTema": "artificial intelligence military war",
+    "autor": "Repertório ENEM",
+    "imagem": "https://images.pexels.com/photos/1214270/pexels-photo-1214270.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "resumo": "A utilização de sistemas de IA para selecionar alvos em conflitos armados levanta dilemas éticos sobre a responsabilidade humana e a crescente autonomia das máquinas em cenários de guerra.",
+    "conteudo": "<h2>🎯 Tema</h2><p>O emprego da inteligência artificial na identificação e seleção de alvos militares representa uma mudança de paradigma na história dos conflitos bélicos. Ao automatizar a análise de dados que antes dependiam exclusivamente do discernimento humano, a IA cria um novo cenário onde a celeridade do processamento de informações se sobrepõe à prudência ética tradicional.</p><h2>📖 Explicação</h2><p>O conceito de 'guerra algorítmica' refere-se à integração de sistemas de aprendizado de máquina para processar vastos volumes de dados e otimizar ações militares. No entanto, essa tecnologia introduz a 'lacuna de responsabilidade'. Quando um sistema de IA seleciona um alvo, a responsabilidade moral pela fatalidade torna-se difusa entre o programador, o comandante militar e a máquina. Além disso, a falibilidade dos algoritmos, que podem reproduzir vieses ou cometer erros de interpretação em contextos complexos, amplia os riscos de danos colaterais e violações de direitos humanos em zonas de conflito.</p><h2>✨ Como usar na redação</h2><p>Você pode utilizar este repertório para discutir os riscos da ética na tecnologia ou a desumanização das relações sociais e políticas. Ao abordar o tema, mencione a 'banalidade do mal' de Hannah Arendt, argumentando que a delegação de decisões letais a algoritmos pode tornar o ato de tirar uma vida um processo burocrático e insensível. Esse argumento é excelente para redações que tratam de dilemas éticos na modernidade ou o impacto da inovação na soberania dos Estados.</p><h2>🔑 Palavras-chave</h2><ul><li>Algoritmo</li><li>Autonomia decisória</li><li>Ética na tecnologia</li><li>Guerra automatizada</li><li>Responsabilidade jurídica</li></ul><h2>💡 Dica ENEM</h2><p>Ao conectar esse repertório com a competência 3 (defesa de um ponto de vista), não foque apenas na eficácia tecnológica, mas nos danos democráticos e éticos de retirar o ser humano do centro da decisão. Questione sempre: quem responde pelo erro da máquina? Isso demonstra pensamento crítico e maturidade argumentativa.</p>",
+    "descricaoSeo": "Explore o impacto ético da inteligência artificial nas guerras modernas. Entenda a desumanização das decisões bélicas para o seu repertório de redação ENEM.",
+    "data": "2026-06-17"
+  },
+  {
     "id": 1781653869210,
     "titulo": "A Tirania da Performance: A Busca pelo 'Corpo Ideal' e os Riscos dos Peptídeos",
     "slug": "a-tirania-da-performance-a-busca-pelo-corpo-ideal-e-os-riscos-dos-peptideos",

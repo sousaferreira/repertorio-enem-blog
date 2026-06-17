@@ -24,7 +24,7 @@ fetch("data/repertorios.json")
 // Função principal para renderizar os cards
 function renderizarPosts(posts) {
   const postsContainer = document.getElementById("posts");
-  
+
   if (!postsContainer) return;
 
   if (posts.length === 0) {
@@ -40,16 +40,16 @@ function renderizarPosts(posts) {
 
   // Limpar container com animação
   postsContainer.style.opacity = "0";
-  
+
   setTimeout(() => {
     postsContainer.innerHTML = "";
-    
+
     posts.forEach((post, index) => {
       // Criar elemento do card com animação individual
       const card = document.createElement("div");
       card.className = `card ${post.destaque ? "featured" : ""}`;
       card.style.animationDelay = `${index * 0.05}s`;
-      
+
       card.innerHTML = `
         ${post.destaque ? '<span class="featured-badge">⭐ Destaque</span>' : ''}
         <img
@@ -61,8 +61,9 @@ function renderizarPosts(posts) {
         >
         <div class="card-content">
           <div class="card-meta">
-            <span class="category">${post.categoria || "Repertório"}</span>
-           </div>
+           <span class="category">
+  ${formatarCategoria(post.categoria)}
+</span></div>
           <h3>${post.titulo}</h3>
           <p>${post.resumo || post.descricao || "Conteúdo em breve..."}</p>
           <div class="card-footer">
@@ -74,10 +75,10 @@ function renderizarPosts(posts) {
           </div>
         </div>
       `;
-      
+
       postsContainer.appendChild(card);
     });
-    
+
     postsContainer.style.opacity = "1";
   }, 150);
 }
@@ -85,15 +86,15 @@ function renderizarPosts(posts) {
 // Função de pesquisa com debounce (melhor performance)
 function pesquisar() {
   if (searchTimeout) clearTimeout(searchTimeout);
-  
+
   searchTimeout = setTimeout(() => {
     const searchInput = document.getElementById("searchInput");
     if (!searchInput) return;
-    
+
     const texto = searchInput.value.toLowerCase().trim();
-    
+
     let filtrados = [...todosPosts];
-    
+
     // Aplicar filtro de texto
     if (texto) {
       filtrados = filtrados.filter(post =>
@@ -101,22 +102,21 @@ function pesquisar() {
         (post.tema && post.tema.toLowerCase().includes(texto)) ||
         (post.resumo && post.resumo.toLowerCase().includes(texto)) ||
         (post.categoria && post.categoria.toLowerCase().includes(texto)) ||
-        (post.palavrasChave && post.palavrasChave.some(palavra => 
+        (post.palavrasChave && post.palavrasChave.some(palavra =>
           palavra.toLowerCase().includes(texto)
         ))
       );
     }
-    
+
     // Aplicar filtro de categoria
     if (currentFilter !== "all") {
-      filtrados = filtrados.filter(post => 
-        post.categoria === currentFilter ||
-        post.tema === currentFilter
+      filtrados = filtrados.filter(
+        post => post.categoria === currentFilter
       );
     }
-    
+
     renderizarPosts(filtrados);
-    
+
     // Mostrar resultado da busca
     const resultInfo = document.querySelector(".search-result-info");
     if (resultInfo) {
@@ -129,15 +129,15 @@ function pesquisar() {
 function initFilters() {
   const filterTags = document.querySelectorAll(".filter-tag");
   if (!filterTags.length) return;
-  
+
   filterTags.forEach(tag => {
     tag.addEventListener("click", () => {
       const filterValue = tag.getAttribute("data-filter");
-      
+
       // Atualizar classe ativa
       filterTags.forEach(t => t.classList.remove("active"));
       tag.classList.add("active");
-      
+
       // Aplicar filtro
       currentFilter = filterValue === "all" ? "all" : filterValue;
       pesquisar(); // Reaplicar pesquisa com novo filtro
@@ -150,14 +150,14 @@ function salvarRepertorio(botao) {
   const card = botao.closest(".card");
   const titulo = card.querySelector("h3")?.innerText || "";
   const slug = card.querySelector(".btn")?.getAttribute("href")?.split("=")[1] || "";
-  
+
   // Recuperar salvos do localStorage
   let salvos = JSON.parse(localStorage.getItem("repertoriosSalvos") || "[]");
-  
+
   if (!salvos.includes(slug)) {
     salvos.push(slug);
     localStorage.setItem("repertoriosSalvos", JSON.stringify(salvos));
-    
+
     // Feedback visual
     botao.innerHTML = "✅ Salvo!";
     botao.disabled = true;
@@ -165,7 +165,7 @@ function salvarRepertorio(botao) {
       botao.innerHTML = "📌 Salvar";
       botao.disabled = false;
     }, 2000);
-    
+
     mostrarNotificacao("Repertório salvo com sucesso!");
   } else {
     mostrarNotificacao("Este repertório já está salvo!", "info");
@@ -180,13 +180,13 @@ function mostrarNotificacao(mensagem, tipo = "success") {
     <span>${tipo === "success" ? "✅" : "ℹ️"}</span>
     <span>${mensagem}</span>
   `;
-  
+
   document.body.appendChild(toast);
-  
+
   setTimeout(() => {
     toast.classList.add("show");
   }, 10);
-  
+
   setTimeout(() => {
     toast.classList.remove("show");
     setTimeout(() => toast.remove(), 300);
@@ -211,10 +211,10 @@ function mostrarErro() {
 // Formatar data para exibição
 function formatarData(data) {
   if (!data) return "Recente";
-  
+
   const dataObj = new Date(data);
   if (isNaN(dataObj.getTime())) return "Data recente";
-  
+
   return dataObj.toLocaleDateString("pt-BR", {
     day: "2-digit",
     month: "short"
@@ -225,11 +225,11 @@ function formatarData(data) {
 function initThemeToggle() {
   const themeToggle = document.getElementById("themeToggle");
   if (!themeToggle) return;
-  
+
   const savedTheme = localStorage.getItem("theme") || "light";
   document.body.setAttribute("data-theme", savedTheme);
   themeToggle.checked = savedTheme === "dark";
-  
+
   themeToggle.addEventListener("change", (e) => {
     const theme = e.target.checked ? "dark" : "light";
     document.body.setAttribute("data-theme", theme);
@@ -245,10 +245,10 @@ let postsToShow = [];
 function initInfiniteScroll() {
   window.addEventListener("scroll", () => {
     if (isLoading) return;
-    
+
     const scrollPosition = window.innerHeight + window.scrollY;
     const bottom = document.body.offsetHeight - 500;
-    
+
     if (scrollPosition >= bottom) {
       loadMorePosts();
     }
@@ -258,7 +258,7 @@ function initInfiniteScroll() {
 function loadMorePosts() {
   isLoading = true;
   page++;
-  
+
   // Simular carregamento de mais posts (ajuste conforme necessidade)
   setTimeout(() => {
     isLoading = false;
@@ -277,7 +277,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
-  
+
   // Adicionar contador de resultados
   const heroSection = document.querySelector(".hero");
   if (heroSection && !document.querySelector(".search-result-info")) {
@@ -289,4 +289,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Exportar funções para uso global (se necessário)
 window.salvarRepertorio = salvarRepertorio;
-window.pesquisar = pesquisar;s
+window.pesquisar = pesquisar;
+
+function formatarCategoria(cat) {
+
+  const categorias = {
+    tecnologia: "💻 Tecnologia",
+    literatura: "📚 Literatura",
+    educacao: "🎓 Educação",
+    politica: "🏛️ Política",
+    meio_ambiente: "🌱 Meio Ambiente",
+    saude: "❤️ Saúde",
+    cultura: "🎭 Cultura",
+    esporte: "⚽ Esporte",
+    filosofia: "🧠 Filosofia",
+    sociedade: "👥 Sociedade"
+  };
+
+  return categorias[cat] || cat;
+}

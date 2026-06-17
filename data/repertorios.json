@@ -1,5 +1,19 @@
 [
   {
+    "id": 1781728866629,
+    "titulo": "A Ofensiva Algorítmica: A Inteligência Artificial e a Terceirização da Letalidade",
+    "slug": "a-ofensiva-algoritmica-a-inteligencia-artificial-e-a-terceirizacao-da-letalidade",
+    "tema": "O uso de sistemas de Inteligência Artificial na tomada de decisões em conflitos bélicos e a desumanização da guerra.",
+    "categoria": "tecnologia",
+    "imagemTema": "artificial intelligence military warfare",
+    "autor": "Repertório ENEM",
+    "imagem": "https://images.pexels.com/photos/1214270/pexels-photo-1214270.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "resumo": "A utilização de sistemas de IA para identificar 1.000 alvos em uma única ofensiva militar levanta debates éticos profundos sobre a delegação da morte a algoritmos e a erosão da responsabilidade humana na guerra.",
+    "conteudo": "<h2>🎯 Tema</h2><p>O emprego de inteligência artificial em operações militares para a identificação e seleção de alvos representa uma mudança de paradigma na condução de conflitos, onde o cálculo algorítmico substitui a análise humana, trazendo riscos éticos sobre a precisão e a responsabilidade moral pela letalidade.</p><h2>📖 Explicação</h2><p>O conceito central aqui é a 'Terceirização da Decisão Moral'. Quando um sistema de IA identifica 1.000 alvos de forma autônoma, ocorre o que a filósofa Hannah Arendt chamaria de 'banalidade do mal' transposta para a era digital: a execução de ordens e ataques sem a mediação da consciência ética humana. Esse cenário cria uma 'guerra de caixa-preta', onde as motivações e os critérios de seleção de alvos tornam-se opacos, dificultando a prestação de contas (accountability) em casos de violações aos direitos humanos ou erros fatais.</p><h2>✨ Como usar na redação</h2><p>Você pode utilizar este repertório para discutir a 'ética na tecnologia'. Argumente que, embora a IA aumente a eficiência operacional, ela retira o julgamento crítico necessário em situações limite. Cite que a 'automação da guerra' pode levar a uma desumanização das vítimas, que passam a ser apenas dados processados por uma máquina, e não vidas humanas, o que fere os princípios do Direito Internacional Humanitário.</p><h2>🔑 Palavras-chave</h2><ul><li>Algoritmização da guerra</li><li>Responsabilidade algorítmica</li><li>Direito Internacional Humanitário</li><li>Desumanização</li><li>Ética na IA</li></ul><h2>💡 Dica ENEM</h2><p>Ao abordar temas sobre tecnologia, sempre apresente um contraponto: a técnica sem a ética pode ser perigosa. No caso da IA na guerra, foque na necessidade de regulamentações internacionais que garantam o 'controle humano significativo' (meaningful human control) em sistemas de armas, evitando que a eficiência tecnológica se sobreponha ao valor inestimável da vida humana.</p>",
+    "descricaoSeo": "Entenda como a Inteligência Artificial altera o cenário dos conflitos bélicos, debatendo a ética, a responsabilidade humana e a desumanização na era dos algoritmos militares.",
+    "data": "2026-06-17"
+  },
+  {
     "id": 1781728265696,
     "titulo": "A Burocracia da Profissionalização: A Certificação de Saberes como Filtro Social",
     "slug": "a-burocracia-da-profissionalizacao-a-certificacao-de-saberes-como-filtro-social",

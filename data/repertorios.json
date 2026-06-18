@@ -1,5 +1,19 @@
 [
   {
+    "id": 1781821267051,
+    "titulo": "A Automatização da Morte: IA e a Ética na Guerra Algorítmica",
+    "slug": "a-automatizacao-da-morte-ia-e-a-etica-na-guerra-algoritmica",
+    "tema": "A influência da inteligência artificial na tomada de decisão em conflitos bélicos modernos.",
+    "categoria": "tecnologia",
+    "imagemTema": "artificial intelligence military warfare",
+    "autor": "Repertório ENEM",
+    "imagem": "https://images.pexels.com/photos/1214270/pexels-photo-1214270.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "resumo": "A utilização de sistemas de IA para selecionar alvos militares em larga escala levanta debates urgentes sobre a responsabilidade humana e a desumanização da guerra na era da tecnologia automatizada.",
+    "conteudo": "<h2>🎯 Tema</h2><p>A transição de uma estratégia militar baseada em análise humana para sistemas de Inteligência Artificial (IA) capazes de identificar e processar milhares de alvos simultaneamente redefine a natureza da guerra e a ética na tomada de decisão.</p><h2>📖 Explicação</h2><p>O conceito central aqui é a substituição do discernimento moral e contextual do ser humano pelo cálculo algorítmico. Quando sistemas de IA processam vastos bancos de dados para determinar alvos de ataque — como observado na recente estratégia militar dos Estados Unidos contra o Irã —, ocorre o que chamamos de 'desumanização da decisão bélica'. O problema fundamental não é apenas a eficácia técnica, mas a ausência de uma 'consciência' que avalie danos colaterais, nuances políticas e o valor da vida humana, elementos que um código, por mais avançado que seja, não consegue processar sob a perspectiva da ética kantiana, que exige que seres humanos nunca sejam tratados meramente como meios para um fim.</p><h2>✨ Como usar na redação</h2><p>Você pode utilizar este repertório para discutir os riscos da 'automação da violência' e a perda de controle sobre sistemas de alta periculosidade. Pode-se citar o conceito de 'Tecnocracia Bélica', em que o poder é delegado a algoritmos, criando um distanciamento entre o ato de decidir e as consequências fatais. Conecte esse debate com a necessidade de uma governança global da IA, argumentando que a inovação tecnológica não pode prescindir de um marco regulatório que assegure a responsabilidade humana ('human-in-the-loop') sobre decisões de vida ou morte.</p><h2>🔑 Palavras-chave</h2><ul><li>Algoritmos bélicos</li><li>Responsabilidade humana</li><li>Ética na IA</li><li>Desumanização da guerra</li><li>Tecnocracia militar</li></ul><h2>💡 Dica ENEM</h2><p>Ao abordar o tema, evite a polarização sobre ser 'a favor ou contra' a tecnologia. Foque na necessidade de uma ética aplicada à ciência. Utilize a ideia de que o progresso tecnológico, quando desvinculado de valores humanistas, pode levar à banalização de crises globais e ao agravamento de conflitos por meio da velocidade imposta pelas máquinas.</p>",
+    "descricaoSeo": "Entenda como a inteligência artificial está transformando a estratégia militar, os riscos da automação de alvos e como utilizar esse debate ético em sua redação do ENEM.",
+    "data": "2026-06-18"
+  },
+  {
     "id": 1781820066335,
     "titulo": "A Burocracia do Acesso: O Calendário como Barreira na Democratização Educacional",
     "slug": "a-burocracia-do-acesso-o-calendario-como-barreira-na-democratizacao-educacional",

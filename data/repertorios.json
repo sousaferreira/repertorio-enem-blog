@@ -1,5 +1,19 @@
 [
   {
+    "id": 1782256871109,
+    "titulo": "A Algoritmização da Guerra: Inteligência Artificial e a Erosão da Responsabilidade Moral",
+    "slug": "a-algoritmizacao-da-guerra-inteligencia-artificial-e-a-erosao-da-responsabilidade-moral",
+    "tema": "O uso de sistemas de Inteligência Artificial em operações militares e conflitos armados.",
+    "categoria": "tecnologia",
+    "imagemTema": "artificial intelligence military warfare",
+    "autor": "Repertório ENEM",
+    "imagem": "https://images.pexels.com/photos/1214270/pexels-photo-1214270.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "resumo": "A utilização de sistemas de IA para selecionar alvos militares em larga escala levanta debates urgentes sobre a automatização da violência e a ética na tomada de decisões bélicas.",
+    "conteudo": "<h2>🎯 Tema</h2><p>A transição da análise militar humana para o uso de sistemas autônomos de Inteligência Artificial (IA) na identificação e seleção de alvos em zonas de conflito representa uma mudança paradigmática na natureza da guerra moderna.</p><h2>📖 Explicação</h2><p>O fenômeno descrito reflete a 'algoritmização da guerra', onde a eficiência computacional substitui o julgamento humano. O filósofo Paul Virilio, em sua obra 'Guerra e Cinema', discute a 'logística da percepção', argumentando que, à medida que a tecnologia acelera a visão e a ação, perdemos a capacidade de reflexão ética. Quando uma IA processa mil alvos simultaneamente, ocorre uma desumanização do inimigo, que deixa de ser um indivíduo e torna-se um dado estatístico. Esse processo gera um 'vácuo de responsabilidade', onde, em caso de erro, torna-se difícil atribuir culpa a uma entidade que não possui agência moral ou consciência das consequências humanitárias.</p><h2>✨ Como usar na redação</h2><p>Você pode utilizar este repertório para discutir os limites éticos da tecnologia. Ao abordar temas como o uso da tecnologia na sociedade contemporânea ou a ética em sistemas automatizados, argumente que a delegação de decisões vitais (como a vida e a morte) a algoritmos carece de discernimento moral. Cite que a 'eficiência' buscada pela tecnologia pode atuar em detrimento dos Direitos Humanos, caso não haja uma governança rigorosa e o controle humano constante sobre essas ferramentas.</p><h2>🔑 Palavras-chave</h2><ul><li>Algoritmos</li><li>Ética na IA</li><li>Desumanização</li><li>Responsabilidade moral</li><li>Tecnologia bélica</li></ul><h2>💡 Dica ENEM</h2><p>Evite cair no tecnicismo puro. O ENEM valoriza a discussão sobre o impacto social da tecnologia. Conecte o uso da IA na guerra com a ideia de que a tecnologia não é neutra e deve estar sempre subordinada aos princípios da Declaração Universal dos Direitos Humanos, garantindo que o progresso técnico não se torne um instrumento de barbárie.</p>",
+    "descricaoSeo": "Explore o impacto ético da inteligência artificial na guerra, discutindo a desumanização dos conflitos e o vácuo de responsabilidade moral na tomada de decisões automatizadas.",
+    "data": "2026-06-23"
+  },
+  {
     "id": 1782255667023,
     "titulo": "A Economia da Exploração: Poder, Vulnerabilidade e o Agenciamento do Corpo",
     "slug": "a-economia-da-exploracao-poder-vulnerabilidade-e-o-agenciamento-do-corpo",

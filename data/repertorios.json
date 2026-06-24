@@ -1,5 +1,19 @@
 [
   {
+    "id": 1782264065698,
+    "titulo": "A Fronteira do Limiar: Microbiologia Doméstica e a Construção da Saúde Pública",
+    "slug": "a-fronteira-do-limiar-microbiologia-domestica-e-a-construcao-da-saude-publica",
+    "tema": "Higiene domiciliar e saúde pública",
+    "categoria": "saude",
+    "imagemTema": "microbiology hygiene health home",
+    "autor": "Repertório ENEM",
+    "imagem": "https://images.pexels.com/photos/5847523/pexels-photo-5847523.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "resumo": "A prática de remover os calçados ao entrar em casa, muitas vezes vista apenas como uma convenção social ou 'frescura', revela-se uma estratégia relevante de prevenção à contaminação microbiológica e manutenção da saúde pública no ambiente doméstico.",
+    "conteudo": "<h2>🎯 Tema</h2><p>A controvérsia sobre o hábito de remover os calçados ao entrar em casa transcende a etiqueta ou o conforto, configurando-se como um campo de intersecção entre hábitos cotidianos, vigilância sanitária e a proteção do ambiente doméstico como barreira contra patógenos urbanos.</p><h2>📖 Explicação</h2><p>Sob a ótica da microbiologia aplicada à saúde pública, o solado dos calçados atua como um vetor de transporte de microrganismos, detritos e poluentes presentes em espaços públicos. Estudos apontam que a sola de um sapato pode carregar uma carga bacteriana significativa, incluindo patógenos resistentes a antibióticos (como a E. coli), além de resíduos químicos industriais e metais pesados oriundos do asfalto. Nesse sentido, o domicílio atua como uma zona de proteção (interface entre o 'sujo' do espaço público e o 'limpo' do espaço privado). A desconstrução da ideia de que essa prática é apenas um hábito cultural revela uma necessidade contemporânea de biossegurança adaptada aos centros urbanos, onde a circulação de pessoas e a densidade populacional potencializam a dispersão de agentes nocivos.</p><h2>✨ Como usar na redação</h2><p>Este repertório pode ser utilizado em temas que abordem a saúde pública, o comportamento coletivo ou a urbanização. Você pode articular o conceito de 'microbiologia do cotidiano' para defender que a saúde pública não depende apenas de políticas governamentais, mas de mudanças nos hábitos individuais que geram impactos coletivos. Pode ser correlacionado com a obra 'O Médico e o Monstro' (metaforicamente sobre a invisibilidade do que trazemos de fora) ou com o conceito de 'higienismo' do século XIX, atualizando a discussão para o contexto da modernidade líquida e da preocupação com o bem-estar familiar.</p><h2>🔑 Palavras-chave</h2><ul><li>Biossegurança</li><li>Saúde Pública</li><li>Microbiologia domiciliar</li><li>Vetorização de patógenos</li><li>Comportamento preventivo</li></ul><h2>💡 Dica ENEM</h2><p>Ao abordar saúde em sua redação, evite focar apenas em grandes hospitais. O ENEM valoriza a capacidade de identificar riscos à saúde no ambiente do cotidiano (escola, casa, trabalho). Conectar hábitos aparentemente triviais, como a higiene ao entrar em casa, com conceitos de prevenção primária demonstra um repertório analítico sofisticado e atento aos detalhes da vida em sociedade.</p>",
+    "descricaoSeo": "Explore o hábito de tirar os sapatos ao entrar em casa sob a perspectiva da saúde pública e biossegurança. Repertório ENEM ideal para temas de saúde e comportamento.",
+    "data": "2026-06-24"
+  },
+  {
     "id": 1782262876603,
     "titulo": "A Algoritmização da Guerra: Inteligência Artificial e a Erosão da Responsabilidade Humana",
     "slug": "a-algoritmizacao-da-guerra-inteligencia-artificial-e-a-erosao-da-responsabilidade-humana",

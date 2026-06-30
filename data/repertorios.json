@@ -1,5 +1,19 @@
 [
   {
+    "id": 1782856664087,
+    "titulo": "Algoritmos da Guerra: O Dilema Ético da Inteligência Artificial nos Conflitos Modernos",
+    "slug": "algoritmos-da-guerra-o-dilema-etico-da-inteligencia-artificial-nos-conflitos-modernos",
+    "tema": "O uso da Inteligência Artificial em decisões estratégicas e militares",
+    "categoria": "tecnologia",
+    "imagemTema": "artificial intelligence war technology",
+    "autor": "Repertório ENEM",
+    "imagem": "https://images.pexels.com/photos/34222354/pexels-photo-34222354.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "resumo": "A utilização de sistemas de IA para a seleção autônoma de alvos militares levanta questões críticas sobre a responsabilidade ética, a supervisão humana e os limites da automação em contextos de conflito.",
+    "conteudo": "<h2>🎯 Tema</h2><p>O emprego de inteligência artificial em operações militares, notadamente na seleção automatizada de alvos, representa uma mudança de paradigma na condução de conflitos. A substituição do julgamento analítico humano pela rapidez algorítmica redefine não apenas a eficiência operacional, mas também a própria natureza da responsabilidade moral nas guerras.</p><h2>📖 Explicação</h2><p>O conceito central aqui é a 'automação da decisão letal'. Historicamente, o uso da força sempre esteve atrelado ao arbítrio humano, que envolve empatia, hesitação e compreensão ética. Ao delegar a identificação de alvos a algoritmos, ocorre o que Hannah Arendt chamaria de 'banalidade do mal' transposta para a era digital: a redução da vida humana a dados processáveis. Quando um sistema de IA processa milhares de alvos sem a intervenção de um analista, a responsabilidade torna-se difusa. Se um erro ocorrer, a quem imputar a culpa? Ao programador, ao comandante ou à própria máquina? A perda da mediação humana cria um distanciamento perigoso que pode escalar conflitos de forma automatizada e desproporcional.</p><h2>✨ Como usar na redação</h2><p>Você pode utilizar esse repertório para discutir os riscos da 'Tecnocracia da Guerra'. Argumente que, embora a tecnologia prometa precisão, ela remove o filtro ético indispensável em situações de conflito. Pode-se citar o filósofo Hans Jonas e o seu 'Princípio Responsabilidade', que defende que o poder técnico atual exige uma ética de precaução, uma vez que a humanidade é capaz de causar danos irreversíveis que fogem ao controle dos critérios tradicionais de moralidade.</p><h2>🔑 Palavras-chave</h2><ul><li>Automação militar</li><li>Responsabilidade algorítmica</li><li>Ética tecnológica</li><li>Decisão letal autônoma</li><li>Tecnocracia</li></ul><h2>💡 Dica ENEM</h2><p>Ao abordar temas de tecnologia no ENEM, evite o determinismo tecnológico (a ideia de que a tecnologia resolve tudo sozinha). O corretor valoriza a sua capacidade de analisar o impacto social e ético da inovação. Sempre proponha que o avanço tecnológico deve ser acompanhado por legislações rigorosas e instâncias de controle humano, garantindo que o progresso não atropele direitos fundamentais e valores democráticos.</p>",
+    "descricaoSeo": "Analise o impacto da inteligência artificial na guerra moderna e como a automação de alvos militares desafia a ética, a responsabilidade e o controle humano. Repertório ideal para redações sobre tecnologia.",
+    "data": "2026-06-30"
+  },
+  {
     "id": 1782856558240,
     "titulo": "A Estética do Dionisíaco: O Futebol como Expressão da Identidade Coletiva",
     "slug": "a-estetica-do-dionisiaco-o-futebol-como-expressao-da-identidade-coletiva",

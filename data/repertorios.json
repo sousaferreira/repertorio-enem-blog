@@ -1,5 +1,19 @@
 [
   {
+    "id": 1782951565248,
+    "titulo": "A Algoritmização da Guerra: Ética e Responsabilidade na Era da IA Bélica",
+    "slug": "a-algoritmizacao-da-guerra-etica-e-responsabilidade-na-era-da-ia-belica",
+    "tema": "O uso da Inteligência Artificial em conflitos armados e a autonomia de sistemas de decisão militar.",
+    "categoria": "tecnologia",
+    "imagemTema": "artificial intelligence warfare military",
+    "autor": "Repertório ENEM",
+    "imagem": "https://images.pexels.com/photos/1214270/pexels-photo-1214270.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "resumo": "A utilização de sistemas de IA para identificar alvos militares em larga escala levanta dilemas éticos profundos sobre a delegação de decisões de vida ou morte a algoritmos, desafiando as noções tradicionais de responsabilidade na guerra.",
+    "conteudo": "<h2>🎯 Tema</h2><p>O uso crescente de inteligência artificial em operações militares, evidenciado por ataques automatizados em larga escala, marca uma transição tecnológica na história dos conflitos bélicos, onde a análise de dados substitui o julgamento humano na seleção de alvos.</p><h2>📖 Explicação</h2><p>A incorporação da IA na estratégia militar, denominada muitas vezes como sistemas de armas autônomos ou de auxílio à decisão, introduz o conceito de 'algoritmização da guerra'. Quando um sistema identifica mil alvos instantaneamente, a velocidade do combate supera a capacidade de reflexão ética humana. Esse cenário evoca o conceito de 'Modernidade Líquida' de Zygmunt Bauman, no qual as instituições — inclusive as militares — perdem suas referências fixas de responsabilidade. Se um erro ocorre no cálculo algorítmico, a quem atribuir a culpa jurídica e moral: ao programador, ao comandante que acionou o sistema ou à própria máquina?</p><h2>✨ Como usar na redação</h2><p>Você pode utilizar este repertório para discutir os limites éticos da tecnologia. Ao abordar temas sobre ética na ciência ou inovação, argumente que a 'neutralidade técnica' da IA é um mito, pois algoritmos são carregados de vieses e decisões que, quando aplicadas a contextos de vida ou morte, tornam a guerra menos humana e mais técnica. Cite que a 'desumanização do conflito' é um retrocesso civilizatório, onde a máquina, desprovida de empatia ou juízo moral, torna-se a árbitra da sobrevivência humana.</p><h2>🔑 Palavras-chave</h2><ul><li>Algoritmização da guerra</li><li>IA autônoma</li><li>Responsabilidade moral</li><li>Ética na tecnologia</li><li>Desumanização bélica</li></ul><h2>💡 Dica ENEM</h2><p>Ao conectar esse repertório com a Constituição Federal, utilize o princípio da dignidade da pessoa humana (Art. 1º, III). Argumente que o uso de IAs sem supervisão humana rigorosa fere a dignidade ao reduzir o indivíduo a um simples 'dado' ou 'alvo' em um sistema estatístico, violando o direito fundamental à vida e ao devido processo decisório.</p>",
+    "descricaoSeo": "Explore como a inteligência artificial está transformando a estratégia militar, os dilemas éticos da automação e como usar este tema na sua redação do ENEM.",
+    "data": "2026-07-02"
+  },
+  {
     "id": 1782950827273,
     "titulo": "O Teto de Vidro nos Gramados: A Luta pela Ascensão Feminina no Futebol de Elite",
     "slug": "o-teto-de-vidro-nos-gramados-a-luta-pela-ascensao-feminina-no-futebol-de-elite",

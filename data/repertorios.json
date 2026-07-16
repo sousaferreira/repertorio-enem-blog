@@ -1,5 +1,19 @@
 [
   {
+    "id": 1784224803248,
+    "titulo": "Algoritmos da Destruição: A Inteligência Artificial e a Ética na Guerra Automatizada",
+    "slug": "algoritmos-da-destruicao-a-inteligencia-artificial-e-a-etica-na-guerra-automatizada",
+    "tema": "O uso de sistemas de IA na identificação de alvos militares e os dilemas éticos da autonomia bélica.",
+    "categoria": "tecnologia",
+    "imagemTema": "artificial intelligence war technology",
+    "autor": "Repertório ENEM",
+    "imagem": "https://images.pexels.com/photos/18799047/pexels-photo-18799047.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "resumo": "A utilização de IA na seleção de alvos militares levanta questões sobre a responsabilidade humana, o risco de erros algorítmicos e a desumanização dos conflitos armados.",
+    "conteudo": "<h2>🎯 Tema</h2><p>A transição de analistas humanos para sistemas de Inteligência Artificial na definição de alvos militares marca uma nova era na estratégia bélica global. Ao delegar a decisão sobre o que atacar para algoritmos, a tecnologia levanta debates profundos sobre a ética da guerra, a responsabilidade jurídica por danos colaterais e a perda do discernimento humano em contextos de vida ou morte.</p><h2>📖 Explicação</h2><p>O fenômeno em questão exemplifica o conceito de 'Guerra Algorítmica'. A IA processa volumes de dados inalcançáveis para humanos, identificando padrões de atividade e locais estratégicos com rapidez. Contudo, essa eficiência esconde o problema da 'caixa preta': quando um algoritmo decide atacar, muitas vezes não há transparência sobre os critérios utilizados, retirando a capacidade de questionamento ético que um soldado ou estrategista humano teria. Filósofos contemporâneos, como Nick Bostrom, alertam para o risco de 'alinhamento', onde a tecnologia cumpre sua função lógica de destruir alvos de forma fria, sem considerar as nuances humanitárias ou os protocolos do Direito Internacional que exigem proporcionalidade e cautela.</p><h2>✨ Como usar na redação</h2><p>Você pode utilizar este repertório para discutir o impacto da tecnologia nas relações humanas ou na segurança pública. O argumento central deve girar em torno da necessidade de 'Human-in-the-loop' (o humano no circuito), ou seja, a exigência ética de que a IA apenas sugira, mas nunca execute ou decida sozinha sobre a integridade física de indivíduos. Isso se conecta diretamente com a discussão sobre o controle de ferramentas tecnológicas poderosas, podendo ser aplicado em temas que envolvam desumanização, ética digital e o avanço irrestrito da inovação tecnológica.</p><h2>🔑 Palavras-chave</h2><ul><li>Guerra Algorítmica</li><li>Dilema ético da IA</li><li>Desumanização da guerra</li><li>Responsabilidade algorítmica</li><li>Tecnologia bélica</li></ul><h2>💡 Dica ENEM</h2><p>Ao abordar tecnologias como a IA na sua redação, evite o tecnocentrismo ingênuo (achar que tudo é bom) ou o ludismo (achar que toda tecnologia é ruim). Adote uma postura crítica: a tecnologia é uma ferramenta cujo efeito depende de como ela é regulada pelo Estado e fiscalizada pela sociedade civil. Sempre mencione a necessidade de legislações que garantam o controle humano sobre decisões automatizadas de impacto social.</p>",
+    "descricaoSeo": "Analise o impacto da inteligência artificial na guerra, discutindo ética, autonomia de alvos e o papel humano diante da tecnologia militar para sua redação do ENEM.",
+    "data": "2026-07-16"
+  },
+  {
     "id": 1783804370660,
     "titulo": "A Barreira da Porta de Entrada: Taxas de Inscrição e a Estratificação do Acesso Universitário",
     "slug": "a-barreira-da-porta-de-entrada-taxas-de-inscricao-e-a-estratificacao-do-acesso-universitario",

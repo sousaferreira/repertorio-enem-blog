@@ -1,5 +1,19 @@
 [
   {
+    "id": 1784224864915,
+    "titulo": "Algoritmos da Guerra: A Inteligência Artificial e a Ética da Automação Bélica",
+    "slug": "algoritmos-da-guerra-a-inteligencia-artificial-e-a-etica-da-automacao-belica",
+    "tema": "O uso de sistemas de Inteligência Artificial na tomada de decisão em conflitos militares e o dilema ético da responsabilidade.",
+    "categoria": "tecnologia",
+    "imagemTema": "artificial intelligence war technology",
+    "autor": "Repertório ENEM",
+    "imagem": "https://images.pexels.com/photos/18799047/pexels-photo-18799047.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "resumo": "O uso de sistemas de IA para identificar alvos militares em larga escala levanta debates urgentes sobre a autonomia das máquinas e a erosão do julgamento humano em decisões que impactam vidas.",
+    "conteudo": "<h2>🎯 Tema</h2><p>A transição do julgamento humano para sistemas algorítmicos em operações militares, como exemplificado pela identificação massiva de alvos pela inteligência artificial, marca uma mudança de paradigma na história dos conflitos globais e levanta questionamentos fundamentais sobre a responsabilidade ética.</p><h2>📖 Explicação</h2><p>O conceito de 'guerra algorítmica' refere-se ao emprego de sistemas de processamento de dados de alta velocidade para mapear cenários de combate. Quando a IA assume a função de identificar, selecionar e priorizar alvos — substituindo o analista militar —, ocorre um fenômeno chamado de delegação de agência. Na filosofia, o pensamento de Hannah Arendt sobre a 'banalidade do mal' pode ser aplicado aqui: ao mecanizar o ato de atacar, o sistema reduz o inimigo a um ponto de dados, distanciando o operador da dimensão moral do ato de tirar uma vida. Além disso, a opacidade dos algoritmos (o problema da 'caixa-preta') torna difícil auditar por que uma IA marcou determinado alvo como legítimo, criando uma lacuna de responsabilidade caso ocorram erros ou crimes de guerra.</p><h2>✨ Como usar na redação</h2><p>Você pode utilizar esse repertório para discutir o impacto da tecnologia na sociedade moderna sob o viés da desumanização. Ao redigir sobre o controle de armas, ética tecnológica ou segurança global, cite o exemplo dos conflitos contemporâneos onde a IA atua como decisora. Argumente que, embora a tecnologia prometa 'eficiência', ela ignora a complexidade ética do julgamento humano, que é indispensável para evitar o que se chama de 'erro algorítmico' em contextos de vida ou morte.</p><h2>🔑 Palavras-chave</h2><ul><li>Algoritmo</li><li>Automação da violência</li><li>Ética da inteligência artificial</li><li>Responsabilidade moral</li><li>Tecnologia militar</li></ul><h2>💡 Dica ENEM</h2><p>Ao abordar temas de tecnologia no ENEM, evite o tecnocentrismo (achar que toda tecnologia é neutra e positiva). Problematize a 'neutralidade' do código: algoritmos são treinados por humanos e podem herdar vieses, erros de interpretação ou uma lógica puramente utilitarista, desprovida de empatia e discernimento jurídico.</p>",
+    "descricaoSeo": "Analise como a Inteligência Artificial está transformando a guerra moderna e os riscos éticos da automação de decisões militares. Repertório essencial para redação.",
+    "data": "2026-07-16"
+  },
+  {
     "id": 1784224803248,
     "titulo": "Algoritmos da Destruição: A Inteligência Artificial e a Ética na Guerra Automatizada",
     "slug": "algoritmos-da-destruicao-a-inteligencia-artificial-e-a-etica-na-guerra-automatizada",
